@@ -1,0 +1,49 @@
+timeout: 600
+local-port: 1080
+servers:
+  - name : oness.space(USA/三网通用)
+    server : 23.88.246.77:20912
+    method : aes-256-cfb
+    password : P2cbAY
+  - name: 6d1b
+    server: free.ca.ont.doubi.ws:13304
+    method: chacha20
+    password: rdyN8u
+    ota: false
+  - name : iss
+    server : a.iss.tf:10008
+    method : aes-256-cfb
+    password : 20991170
+  - name : oness.space(新加坡/移动)
+    server : 188.166.212.154:20912
+    method : aes-256-cfb
+    password : P2cbAY
+  - name : oness.space(japan/联通移动)
+    server : 45.32.50.135:20912
+    method : aes-256-cfb
+    password : P2cbAY
+  - name : ENSS.SPACE影梳空间
+    server : 104.199.157.4:11183
+    method : aes-256-cfb
+    password : enss.space
+    ota : false
+  - name : www.cworld.pw
+    method : aes-256-cfb
+    password : Pb7xi7
+    ota : false
+    server : ss6.foolwall.xyz:37708
+  - name : quanminxingkong.com
+    server : quanminxingkong.com:1083
+    password : ilovegoogle
+    method : rc4-md5 
+    ota : false
+  - name : 6d1b.cc
+    server : free.ca.ont.doubi.ws:13304
+    method : chacha20
+    password : rdyN8u
+    ota: false
+  - name : www.cworld.pw 2
+    method : aes-256-cfb
+    password : Pb7xi7
+    server : ss9.foolwall.xyz:37708
+    ota : false
