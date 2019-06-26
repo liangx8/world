@@ -29,6 +29,11 @@
 
 	// Settings of the protocol. Varies based on protocol.
 	"settings": {"auth": "noauth","udp": true}
+    },{
+        "port": 8123,
+        "listen": "0.0.0.0",
+	"protocol": "http",
+	"settings":{"udp":true}
     }],
     // List of outbound proxy configurations.
     "outbounds": [{
